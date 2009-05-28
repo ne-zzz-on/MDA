@@ -1,0 +1,110 @@
+#slider {
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.scroll {
+	margin-top: 20px;
+    height: 440px;
+    width: 1000px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    clear: left;
+    background: #FFFFFF url(images/content_pane-gradient.gif) repeat-x scroll left bottom;
+}
+
+.scrollContainer div.panel {
+    padding: 20px;
+    height: 440px;
+    width: 1080px;
+    float: left;
+}
+
+.scrollContainer div.aboutpanel {
+    padding: 20px;
+    height: 440px;
+    width: 1080px;
+    float: left;
+}
+
+.scrollContainer div.aboutpanel {
+    color: green;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 150px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -60px;
+    top: 250px;
+}
+
+.scrollButtons.right {
+    right: -40px;
+    top: 250px;
+}
+
+.hide {
+    display: none;
+}
+
+.scrollContainer div.portfolioPiece {
+	height: 150px;
+	width: 190px;
+	margin-top: 10px;
+	background-color: white;
+	margin-right: 50px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.scrollContainer div.portfolioThumb {
+	height: 135px;
+	width: 180px;
+	background-color: silver;
+	border: solid;
+	border-color: #a59b91;
+	border-width: 7px;
+	background-color: white;
+}
+
+.scrollContainer div.portfolioTitle {
+	color: green;
+}
+
+ul.navigation {
+    list-style: none;
+    margin-left: 40px;
+    padding: 0;
+    padding-bottom: 9px;
+    font-size: 13px;
+}
+
+ul.navigation li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul.navigation a {
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+ul.navigation a:hover {
+    color: #a59b91;
+}
+
+ul.navigation a.selected {
+    color: #ca3b29;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}

@@ -1,0 +1,275 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+
+html {
+background-color: white;
+font-family: "Century Gothic","Arial";
+}
+
+#wrapper {
+height: 700px;
+width: 1280px;
+margin-left: -640px;
+left: 50%;
+position: absolute;
+}
+
+#header {
+height: 100px;
+width: 1280px;
+z-index: 2;
+}
+
+#content {
+height: 610px;
+z-index: -1;
+}
+
+#news {
+width: 899px;
+height: 250px;
+margin-top: 361px;
+margin-left: 192px;
+position: absolute;
+}
+
+.quote {
+height: 250px;
+width: 200px;
+float: left;
+margin-right: 12px;
+margin-left: 12px;
+margin-top: 10px;
+}
+
+.quote p{
+font-size: 12px;
+text-align: justify;
+}
+
+.quote a{
+color: black;
+}
+
+.quoteThumb {
+height: 80px;
+width: 190px;
+background-color: white;
+border-style: solid;
+border-width: 5px;
+border-color: gray;
+margin-bottom: 6px;
+}
+
+#footer {
+margin-bottom: 0px;
+height: 30px;
+width: 1280px;
+position: absolute;
+background-image: url(../images/footer.png);
+}
+
+ul.mainNavigation {
+float: right;
+margin-top: 50px;
+list-style: none;
+margin-right: 170px;
+padding: 0;
+padding-bottom: 9px;
+font-size: 15px;
+}
+
+ul.mainNavigation li {
+display: inline;
+margin-right: 10px;
+}
+
+ul.mainNavigation a {
+padding: 10px;
+color: #000;
+text-decoration: none;
+}
+
+ul.mainNavigation a:active {
+color: #ca3b29;
+}
+
+ul.mainNavigation a:hover {
+color: #a59b91;
+}
+
+ul.mainNavigation a.selected {
+color: #ca3b29;
+}
+
+ul.mainNavigation a:focus {
+outline: none;
+color: #ca3b29;
+}
+
+.column {
+font-size: 13px;
+width: 200px;
+padding-right: 30px; 
+float:left; 
+text-align: justify;
+}
+
+
+.principalBio {
+height: 400px;
+width: 430px;
+background-color: white;
+float: left;
+margin-right: 100px;
+margin-top: 20px;
+}
+
+.contactColumn {
+font-size: 15px;
+width: 280px;
+padding-right: 30px; 
+float:left; 
+}
+
+.contactContainer {
+height: 220px;
+width: 400px;
+float: left;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+#aboutLeft {
+width: 700px; 
+height: 420px;  
+float: left;
+}
+
+#aboutRight {
+margin-left: 40px;
+width: 200px; 
+height: 420px; 
+float: left;
+}
+
+.aboutRightColumn {
+padding-left: 30px;
+width: 150px;
+}
+
+.aboutRightColumn a{
+padding-left: 30px;
+color: black;
+text-transform: none;
+}
+
+.portfolioThumb {
+background-color: white;
+}
+
+.bioImages {
+float: right;
+border-style: solid;
+border-width: 2px;
+border-color: #CCCCCC;
+margin-left: 20px;
+margin-bottom: 5px;
+}
+
+.titles {
+font-size: 24px; 
+color: green;
+}
+
+#bice h2, #antonio h2 {
+font-size: 16px;
+}
+
+#bice h2, #antonio h3 {
+font-size: 15px;
+}
+
+#bice p, #antonio p {
+font-size: 12px;
+text-align: justify;
+}
+
+#bice a {
+color: black;
+}
+
+#antonio a {
+color: black;
+}
+
+.personalBio {
+margin-top: 70px;
+margin-left: 190px;
+position: absolute;
+width: 900px;
+height: 500px;
+}
+
+.personalBio p {
+position: absolute;
+font-size: 11px;
+margin-top: 370px;
+}
+
+.personalBio h1 {
+font-size: 25px;
+color: green;
+}
+
+.personalBio h2 {
+font-size: 18px;
+color: black;
+}
+
+.personalBio img {
+border-style: solid;
+border-width: 2px;
+border-color: #CCCCCC;
+margin-top: 20px;
+position: absolute;
+}
+
+.personalBio span {
+float: left;
+width: 250px;
+height: 510px;
+margin-left: 20px;
+font-size: 13px;
+text-align: justify;
+}
+
+.personalBioCopy {
+width: 830px;
+height: 450px;
+margin-left: 250px;
+margin-top: -30px;
+position: absolute;
+}
+
+.portfolioTitle {
+font-size: 14px;
+color: green;
+}
